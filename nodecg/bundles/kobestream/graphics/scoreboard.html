@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="common.css" />
+  <style>
+    #scoreboard { position: absolute; top: 30px; left: 50%; transform: translateX(-50%); display: grid; grid-template-columns: 220px 80px 80px 220px 140px; align-items: center; text-align: center; border-radius: 14px; overflow: hidden; font-weight: 800; }
+    .team { font-size: 36px; padding: 18px; }
+    .score { font-size: 46px; background: rgba(255,255,255,0.12); padding: 14px; }
+    .timer { font-size: 26px; padding: 14px; }
+    .period { font-size: 18px; opacity: .85; }
+  </style>
+</head>
+<body>
+  <div id="scoreboard" class="panel">
+    <div class="team" id="homeTeam">HOME</div>
+    <div class="score" id="homeScore">0</div>
+    <div class="score" id="awayScore">0</div>
+    <div class="team" id="awayTeam">AWAY</div>
+    <div class="timer"><div id="timer">00:00</div><div class="period" id="period">1st Half</div></div>
+  </div>
+  <script src="scoreboard.js"></script>
+</body>
+</html>
