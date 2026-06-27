@@ -1,0 +1,23 @@
+{
+  "default_model": "football_players",
+  "models": {
+    "football_players": {
+      "model_id": "football-players-detection-3zvbc/20",
+      "task": "object-detection",
+      "classes": ["ball", "goalkeeper", "player", "referee"],
+      "usage": "Primary football detector for players, ball, goalkeeper and referee"
+    },
+    "football_ball": {
+      "model_id": "football-ball-detection-rejhg/4",
+      "task": "object-detection",
+      "classes": ["ball"],
+      "usage": "Ball-only detector for better small-ball detection"
+    },
+    "football_field": {
+      "model_id": "football-field-detection-f07vi/17",
+      "task": "keypoint-detection",
+      "classes": ["pitch_keypoints"],
+      "usage": "Pitch calibration for tactical map, distance, speed and heatmaps"
+    }
+  }
+}
