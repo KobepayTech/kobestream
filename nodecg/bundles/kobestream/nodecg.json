@@ -1,0 +1,23 @@
+{
+  "name": "kobestream",
+  "version": "0.1.0",
+  "description": "Kobestream TV graphics, player stats and AI tracking overlays",
+  "homepage": "https://github.com/KobepayTech/kobestream",
+  "authors": ["KobepayTech"],
+  "license": "MIT",
+  "nodecgDependency": "^2.0.0",
+  "dashboardPanels": [
+    {
+      "name": "match-control",
+      "title": "Kobestream Match Control",
+      "file": "dashboard/match-control.html",
+      "width": 4
+    }
+  ],
+  "graphics": [
+    { "file": "graphics/scoreboard.html", "width": 1920, "height": 1080 },
+    { "file": "graphics/player-stats.html", "width": 1920, "height": 1080 },
+    { "file": "graphics/lower-third.html", "width": 1920, "height": 1080 },
+    { "file": "graphics/ai-tracking.html", "width": 1920, "height": 1080 }
+  ]
+}
