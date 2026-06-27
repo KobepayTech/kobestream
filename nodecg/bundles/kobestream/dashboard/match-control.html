@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Kobestream Match Control</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    label { display: block; margin-top: 10px; font-size: 12px; font-weight: bold; }
+    input { width: 100%; padding: 7px; box-sizing: border-box; }
+    button { margin-top: 12px; padding: 10px; width: 100%; cursor: pointer; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Match</h3>
+  <div class="row"><div><label>Home</label><input id="homeTeam" value="HOME" /></div><div><label>Away</label><input id="awayTeam" value="AWAY" /></div></div>
+  <div class="row"><div><label>Home score</label><input id="homeScore" type="number" value="0" /></div><div><label>Away score</label><input id="awayScore" type="number" value="0" /></div></div>
+  <div class="row"><div><label>Timer</label><input id="timer" value="00:00" /></div><div><label>Period</label><input id="period" value="1st Half" /></div></div>
+  <button onclick="updateMatch()">Update Match</button>
+
+  <h3>Player stats</h3>
+  <div class="row"><div><label>Name</label><input id="playerName" value="Player Name" /></div><div><label>Number</label><input id="playerNumber" type="number" value="6" /></div></div>
+  <div class="row"><div><label>Goals</label><input id="goals" type="number" value="0" /></div><div><label>Assists</label><input id="assists" type="number" value="0" /></div></div>
+  <div class="row"><div><label>Yellow</label><input id="yellowCards" type="number" value="0" /></div><div><label>Red</label><input id="redCards" type="number" value="0" /></div></div>
+  <button onclick="updatePlayer()">Update Player</button>
+
+  <h3>Lower third</h3>
+  <label>Title</label><input id="lowerTitle" value="Kobestream Live" />
+  <label>Subtitle</label><input id="lowerSubtitle" value="Sports broadcast graphics" />
+  <button onclick="updateLowerThird()">Update Lower Third</button>
+
+  <script src="match-control.js"></script>
+</body>
+</html>
