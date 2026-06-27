@@ -28,7 +28,7 @@ NodeCG / SPX-GC / CasparCG graphics
 YouTube / TikTok / Instagram / Facebook / RTMP server
 ```
 
-## Clone with submodules
+## Clone with all projects
 
 ```bash
 git clone --recursive https://github.com/KobepayTech/kobestream.git
@@ -41,20 +41,10 @@ If you already cloned it:
 git submodule update --init --recursive
 ```
 
-## Add all projects locally
-
-Run this once after cloning:
+## Setup
 
 ```bash
 bash scripts/setup-submodules.sh
-```
-
-Then push:
-
-```bash
-git add .
-git commit -m "Add broadcast stack submodules"
-git push
 ```
 
 ## Update all projects later
