@@ -1,0 +1,21 @@
+[submodule "vendor/obs-studio"]
+	path = vendor/obs-studio
+	url = https://github.com/obsproject/obs-studio.git
+[submodule "vendor/fly-scoreboard"]
+	path = vendor/fly-scoreboard
+	url = https://github.com/mmlTools/fly-scoreboard.git
+[submodule "vendor/nodecg"]
+	path = vendor/nodecg
+	url = https://github.com/nodecg/nodecg.git
+[submodule "vendor/sport-streamer"]
+	path = vendor/sport-streamer
+	url = https://github.com/JimThatcher/sport-streamer.git
+[submodule "vendor/casparcg-server"]
+	path = vendor/casparcg-server
+	url = https://github.com/CasparCG/server.git
+[submodule "vendor/spx-gc"]
+	path = vendor/spx-gc
+	url = https://github.com/TuomoKu/SPX-GC.git
+[submodule "vendor/roboflow-sports"]
+	path = vendor/roboflow-sports
+	url = https://github.com/roboflow/sports.git
