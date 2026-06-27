@@ -1,0 +1,10 @@
+{
+  "name": "kobestream",
+  "version": "0.1.0",
+  "description": "Kobestream NodeCG graphics bundle for live sports broadcasts",
+  "main": "extension/index.js",
+  "nodecg": {
+    "compatibleRange": "^2.0.0"
+  },
+  "dependencies": {}
+}
